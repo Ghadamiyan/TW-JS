@@ -1,0 +1,54 @@
+.menu {
+	background-image: linear-gradient(to right, #ffff99, #ffcc99);
+	border-radius: 0.5rem;
+	box-shadow: inset 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.15);
+	display: inline-block;
+	width: 100%
+}
+
+.menu-item {
+	background-color: #ffdd99;
+	color: #4d0017;
+	position: relative;
+	display: inline-block;
+	border: none;
+	border-radius: 0.7rem;
+	min-width: 17vw;
+	width: auto;
+	height: 3vw;
+	font-weight: bold;
+	font-size: 2vw;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1vw 0px 0px 0px;
+	margin-right: 0.2vw;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #4d0017;
+}
+
+.sub-menu {
+	background-color: #ffdd99;
+	color: #4d0017;
+	display: none;
+	position: absolute;
+	min-width: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	border-radius: 0.7rem;
+	text-decoration: none;
+}
+
+.sub-menu a:hover {
+	background-color: #ffbf80;
+}
+
+.menu-item:hover .sub-menu {
+	display: grid;
+}
+
+.menu-item:hover {
+	background-color: #ffbf80;
+}

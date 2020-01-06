@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="styles/menu.css" />
+
+    <link rel="stylesheet" type="text/css" href="styles/media.css" />
+
+    <link rel="stylesheet" type="text/css" href="styles/animations.css" />
+
+    <link rel="shortcut icon" type="image/icon" href="media/favicon.ico" />
+
+    <title> BASKETBALL </title>
+
+</head>
+
+<body>
+
+    <div id="div1">
+        <h1> BASKETBALL </h1>
+        <h4> All you need to know </h4>
+    </div>
+
+    <img src="media/logo.png" alt="Poza" style="width:200px;height:100px;">
+
+    <br/>
+    <br/>
+    <br/>
+    <nav class="menu">
+        <ol>
+            <li class="menu-item"><a href="#0" target="_blank"> &#160;&#160;Home </a></li>
+            <li class="menu-item"><a href="about.html" target="_blank"> &#160;&#160;About </a></li>
+            <li class="menu-item"> &#8711;&#160;&#160;Rules
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="rules_nba.html" target="_blank"> &#187;&#160;&#160;NBA </a></li>
+                    <li class="menu-item"><a href="rules_fiba.html" target="_blank"> &#187;&#160;&#160;FIBA </a></li>
+                </ul>
+            </li>
+            <li class="menu-item"> &nabla;&nbsp;Championships
+                <ul class="sub-menu">
+                    <li class="menu-item"><a href="https://www.nba.com/playoffs/2019/finals#/" target="_blank"> &raquo;&nbsp;&nbsp;NBA </a></li>
+                    <li class="menu-item"><a href="http://www.fiba.basketball/basketballworldcup/2019" target="_blank"> &raquo;&nbsp;&nbsp;FIBA  </a></li>
+                </ul>
+            </li>
+            <li class="menu-item"><a href="contact.html" target="_blank"> &#160;&#160;Contact </a></li>
+        </ol>
+    </nav>
+
+    <br/>
+    <br/>
+    <br/>
+    <input type="button" onclick="alert('Welcome!')" value="Click Me!">
+    <br/>
+    <br/>
+    <audio id="player" src="media/Audio1.mp3"> Your browser does not support audio elements. </audio>
+    <div class="Audio">
+        <button class="Audio" onclick="document.getElementById('player').play()">&#9658;</button>
+        <button class="Audio" onclick="document.getElementById('player').pause()">&#10073;&#10073;</button>
+        <button class="Audio" onclick="document.getElementById('player').volume += 0.1"> + </button>
+        <button class="Audio" onclick="document.getElementById('player').volume -= 0.1"> - </button>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <button id="buttonload"> Loading...&#8987;
+    </button>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.flex-container {
+	display: flex;
+	/* flex-flow: row wrap; */
+	justify-content: center;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	/* background-color: #ffffcc; */
+}
+
+.flex-container>div {
+	background-color: #ffdd99;
+	width: auto;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
+
+img {
+	height: 100px;
+	/* width: 5px; */
+	border-left: 0.25em solid #ffffcc;
+	/* Am pus doar ca sa folosesc em, nu are efect vizual*/
+}

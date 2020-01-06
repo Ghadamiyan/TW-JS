@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="styles/media.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" type="image/icon" href="media/favicon.ico" />
+
+    <title> BASKETBALL </title>
+    
+    
+    <style>
+    #submit{
+      cursor: not-allowed;
+	  }
+  	</style>
+</head>
+
+<body>
+
+  <br/>
+    <iframe src="https://www.fibalivestats.com/u/ROMAL/1434905/" name="myiFrame"  allowfullscreen>
+    </iframe>
+
+    <br/>
+    <br/>
+    <br/>
+	<form style="display: inline" action="https://www.facebook.com/nba/" target="_blank" method="get">
+		<button class="social" style="float: right;">
+			<i class="fa fa-facebook-official">
+			See out latest news
+			</i>
+		</button>
+	</form>
+	<form style="display: inline" action="https://twitter.com/nba" target="_blank" method="get">
+		<button class="social" style="float: right;">
+			<i class="fa fa-twitter-square">			
+			Check out
+			</i>
+        </button>
+    </form>
+
+    <div class="plain_text">
+
+        <form id = "myForm">
+            First name:
+            <br>
+            <input type="text" placeholder="LeBron" maxlength="20" class="flname">
+            <br> Last name:
+            <br>
+            <input type="text" placeholder="James" class="flname">
+
+            <br/>
+            <br/> Sex:
+            <br/>
+            <input type="radio" name="g" checked class="radio"> Male
+            <br>
+            <input type="radio" name="g" class="radio"> Female
+            <br>
+            <input type="radio" name="g" class="radio"> Other
+
+            <br/>
+            <label for="FormControlSelect1">Your comment is about:</label>
+            <br/>
+            <select class="form-control" id="exampleFormControlSelect1">
+            <option>NBA</option>
+            <option>FIBA</option>
+            </select>
+
+            <br/>
+            <br/> Pick your favourite color:
+            <br/>
+            <input type="color" value="#ff99ff">
+
+            <br/>
+            <br/> Select your birthday (you must be at least 18):
+            <br/>
+            <input type="date" max="2001-01-01">
+
+            <br/>
+            <br/>
+            <label for="exampleInputEmail1">Email*:</label>
+            <br/>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="lebronJames@yahoo.com">
+
+            <br/>
+            <label for="exampleInputPassword1">Password*: </label>
+            <br/>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ceva12234" >
+
+            <br/>
+            <br/> Your suggestions*:
+            <br/>
+            <input type="text" required>
+            
+            <br/>
+            <br/>
+            <label for="formControlRange">How useful did you find the information on this site? </label>
+            <br/>
+            <input type="range" name="rangeInputName" id="rangeInputId" value="10" min="1" max="10" oninput="rangeOutputId.value = rangeInputId.value">
+            <output name="rangeOutputName" id="rangeOutputId">10</output>
+            
+            <br/>
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+            <br/>
+            <br/>
+            <!--<input type="submit" formaction="thanks.html" value="Submit">-->
+            <input type="button" value="Submit" id="submit" disabled>
+            <input type="button" value="Reset" id="resett">
+        </form>
+        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+    </div>
+
+<script src = "scripts/form.js" type="text/javascript"></script>
+</body>
+
+</html>

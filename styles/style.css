@@ -1,0 +1,65 @@
+body {
+	background-color: #ffffcc;
+	overflow-x: hidden;
+}
+
+img {
+	position: relative;
+	left: 50vw;
+	transform: translate(-50%, 0);
+}
+
+#div1 {
+	color: #4d0017;
+	text-align: center;
+	line-height: 5vw;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 3vw;
+}
+
+.plain_text {
+	color: #4d0017;
+	text-align: left;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: normal;
+}
+
+.cat {
+	color: #4d0017;
+	text-align: left;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+	background-color: #ffdd99;
+	color: #4d0017;
+	border-radius: 0.7rem;
+	width: 20%;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.Audio {
+	background-color: #ffdd99;
+	color: #4d0017;
+	border-radius: 0.7rem;
+	width: auto; /* Sau 30% */
+}
+
+.social {
+	width: auto;
+	height: 40px;
+	background: #ffdd99;
+	color: #4d0017;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border-radius: 0.7rem;
+}
+
+iframe{
+	/*border:4px #4d0017 dotted;*/
+	height: 50%;
+	width: 100%;
+}

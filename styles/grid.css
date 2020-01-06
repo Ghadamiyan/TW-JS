@@ -1,0 +1,25 @@
+.item-a {
+  grid-area: header;
+}
+
+.item-c {
+  grid-area: sidebar;
+}
+
+.item-b {
+  grid-area: main;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: 
+    "header header header header"
+    "sidebar main main main"
+	"sidebar main main main";
+  /* justify-content: center; */
+  grid-gap: 20px;
+  padding: 10px;
+  
+}
+
+

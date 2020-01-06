@@ -1,0 +1,17 @@
+@media only screen and (max-width: 700px) {
+	body {
+		background-color: #ffe6ff;
+	}
+	.menu {
+		display: grid;
+		/* width: device-width; */
+	}
+	.menu-item {
+		display: block;
+		margin-bottom: 1vw;
+		/* width: device-width; */
+	}
+	.sub-menu {
+		/* position: relative; /*imi place si asa, dar nu se vad butoanele */
+	}
+}

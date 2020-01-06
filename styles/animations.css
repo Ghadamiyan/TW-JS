@@ -1,0 +1,57 @@
+/* Pentru animatia din home */
+
+#buttonload {
+	width: auto;
+	height: 40px;
+	background: #ffdd99;
+	color: #4d0017;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	animation-name: sare;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+#buttonload:hover {
+	width: 150px;
+	background: magenta;
+	color: pink;
+}
+
+@keyframes sare {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-30px);
+	}
+	60% {
+		transform: translateY(-20px);
+	}
+}
+
+
+/* Pentru animatia din thanks  */
+
+@keyframes jump {
+	0% {
+		transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+	}
+	40% {
+		transform: translate3d(0, 30%, 0) scale3d(.7, 1.5, 1);
+	}
+	100% {
+		transform: translate3d(0, 100%, 0) scale3d(1.5, .7, 1);
+	}
+}
+
+.jump {
+	transform-origin: 50% 50%;
+	animation: jump .5s linear alternate infinite;
+	position: relative;
+	left: 40vw;
+	transform: translate(-50%, 0);
+}
